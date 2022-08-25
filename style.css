@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: montserrat;
-    background: linear-gradient(120deg, #579fce, #0591ee)
+    background: linear-gradient(120deg, #579fce, #0591ee);
     height: 100vh;
     overflow: hidden;
 }
@@ -32,7 +32,7 @@ form .txt_field{
 .txt_field input{
     width: 100%;
     padding: 0 5px;
-    heigh: 40px;
+    height: 40px;
     font-size: 16px;
     border: none;
     background: none;
@@ -48,7 +48,7 @@ form .txt_field{
     pointer-events: none;
     transition: .5s;
 }
-.txt-field span: :before{
+.txt-field span::before{
     content: '';
     position: absolute;
     top: 40px;
@@ -64,7 +64,7 @@ form .txt_field{
     color: #2691d9;
 }
 .txt_field input:focus ~ span::before,
-.txt_field input:valid ~ span:: {
+.txt_field input:valid ~ span::before{
    width: 100%;
 }
 .pass{
